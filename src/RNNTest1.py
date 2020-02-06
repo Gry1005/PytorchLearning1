@@ -38,6 +38,7 @@ class RNN(nn.Module):
         self.out = nn.Linear(64,10) #定义一个全连接层，输入是64，输出是10
 
     def forward(self, x):
+        #LSTM的forward以time_step为单位
         r_out,(h_n,h_c) = self.rnn(x,None) # (h_n,h_c) 表示每一步产生的中间记忆hidden state，会被输入到下一步中；LSTM有两个中间记忆，h_n分线的，h_c是主线的
         # None表示，第一步时有没有hidden state; None表示没有，否则要输入一个hidden state
         out = self.out(r_out[:,-1,:]) # r_out的格式是(batch, time_step, input_size)；选取最后一步的输出
