@@ -88,12 +88,14 @@ for epoch in range(EPOCH):
             _, decoded_data=autoencoder(view_data)
             for i in range(N_TEST_IMG):
                 #第二行子图需要不断变化
+                #print("draw pic!")
                 a[1][i].clear()
                 a[1][i].imshow(np.reshape(decoded_data.data.numpy()[i], (28, 28)), cmap='gray')
                 a[1][i].set_xticks(())
                 a[1][i].set_yticks(())
+
             plt.draw()
-            plt.pause(0.05)
+            #plt.pause(0.05)
 
 plt.ioff()
 plt.show()

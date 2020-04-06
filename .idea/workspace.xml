@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aea2d4a6-a34a-477f-bd30-6f9b6d83870b" name="默认的" comment="">
-      <change afterPath="$PROJECT_DIR$/src/autoencoder.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DQN.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/autoencoder.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/autoencoder.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,8 +24,35 @@
     <SUITE FILE_PATH="coverage/resNetTest$saveNet.coverage" NAME="saveNet Coverage Results" MODIFIED="1544000429971" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
     <SUITE FILE_PATH="coverage/cnnPractice$Cnn.coverage" NAME="Cnn Coverage Results" MODIFIED="1552528010143" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/DQN.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-165">
+              <caret line="112" lean-forward="true" selection-start-line="112" selection-end-line="112" />
+              <folding>
+                <element signature="e#0#12#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -53,6 +81,7 @@
         <option value="E:/csci570/hw2/calculator.py" />
         <option value="$PROJECT_DIR$/src/mnist/autoencoder.py" />
         <option value="$PROJECT_DIR$/src/autoencoder.py" />
+        <option value="$PROJECT_DIR$/src/DQN.py" />
       </list>
     </option>
   </component>
@@ -68,7 +97,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -85,6 +113,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -110,23 +139,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.autoencoder">
-    <configuration name="RNNTest1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.DQN">
+    <configuration name="DQN" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="PytorchPractice" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/RNNTest1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/DQN.py" />
       <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
@@ -181,6 +207,9 @@
       <module name="PytorchPractice" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -303,19 +332,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.RNNTest1" />
       <item itemvalue="Python.RNNTest2" />
       <item itemvalue="Python.perceptron" />
       <item itemvalue="Python.calculator" />
       <item itemvalue="Python.autoencoder" />
+      <item itemvalue="Python.DQN" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.DQN" />
         <item itemvalue="Python.autoencoder" />
         <item itemvalue="Python.calculator" />
         <item itemvalue="Python.RNNTest2" />
         <item itemvalue="Python.perceptron" />
-        <item itemvalue="Python.RNNTest1" />
       </list>
     </recent_temporary>
   </component>
@@ -350,16 +379,25 @@
       <workItem from="1582266697274" duration="1013000" />
       <workItem from="1583048712905" duration="52000" />
       <workItem from="1583385727896" duration="4111000" />
+      <workItem from="1583390403152" duration="11000" />
+      <workItem from="1584680270589" duration="1935000" />
+      <workItem from="1584844810648" duration="599000" />
+      <workItem from="1585023448337" duration="89000" />
+      <workItem from="1585194748591" duration="606000" />
+      <workItem from="1585534137697" duration="603000" />
+      <workItem from="1586062887088" duration="674000" />
+      <workItem from="1586128762500" duration="6000" />
+      <workItem from="1586146152166" duration="4626000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26910000" />
+    <option name="totallyTimeSpent" value="36059000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21648793" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24329759" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -375,14 +413,14 @@
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.3286119" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50292826" side_tool="true" weight="0.26941362" />
       <window_info anchor="bottom" id="调试" order="12" />
-      <window_info anchor="bottom" id="Python Console" order="13" weight="0.3286119" />
+      <window_info anchor="bottom" id="Python Console" order="13" weight="0.3512748" />
       <window_info anchor="bottom" id="Database Changes" order="14" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" weight="0.5636896" />
-      <window_info anchor="right" id="Database" order="4" />
-      <window_info anchor="right" x="0" y="0" width="337" height="638" id="Documentation" order="5" side_tool="true" weight="0.123324394" />
+      <window_info anchor="right" id="SciView" order="3" sideWeight="0.84653467" weight="0.5630027" />
+      <window_info anchor="right" id="Database" order="4" weight="0.3297587" />
+      <window_info anchor="right" x="0" y="0" width="337" height="638" id="Documentation" order="5" sideWeight="0.15136476" side_tool="true" weight="0.5630027" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -468,8 +506,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/autoencoder.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2500">
-          <caret line="100" lean-forward="true" selection-start-line="100" selection-end-line="100" />
+        <state relative-caret-position="364">
+          <caret line="97" column="28" lean-forward="true" selection-start-line="97" selection-start-column="28" selection-end-line="97" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DQN.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-165">
+          <caret line="112" lean-forward="true" selection-start-line="112" selection-end-line="112" />
           <folding>
             <element signature="e#0#12#0" expanded="true" />
           </folding>
